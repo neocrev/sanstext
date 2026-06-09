@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+sanstext/__init__.py
+sanstext/__main__.py
+sanstext/core.py
+sanstext/sound.py
+sanstext.egg-info/PKG-INFO
+sanstext.egg-info/SOURCES.txt
+sanstext.egg-info/dependency_links.txt
+sanstext.egg-info/entry_points.txt
+sanstext.egg-info/top_level.txt

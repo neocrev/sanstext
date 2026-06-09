@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sanstext"
+version = "1.0.0"
+description = "Undertale-style Sans dialogue animation for your terminal"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "neocrev" }]
+keywords = ["terminal", "animation", "undertale", "sans", "text"]
+
+[project.scripts]
+sanstext = "sanstext.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sanstext*"]

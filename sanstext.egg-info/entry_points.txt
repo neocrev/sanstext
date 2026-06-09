@@ -1,0 +1,2 @@
+[console_scripts]
+sanstext = sanstext.__main__:main
